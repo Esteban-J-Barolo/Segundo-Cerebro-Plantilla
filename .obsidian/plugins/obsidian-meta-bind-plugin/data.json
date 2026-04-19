@@ -1,0 +1,208 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "➕ Agregar Sesion",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-agregar-sesion",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Sesion.md"
+        }
+      ]
+    },
+    {
+      "label": "🔄 Recalcular sesion",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-recalcular-sesion",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Recalculate_Sesion.md"
+        }
+      ]
+    },
+    {
+      "label": "➕ Agregar tiempo",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-add-time",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Time.md"
+        }
+      ]
+    },
+    {
+      "label": "🔄 Recalcular Tiempos",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-recalcular-tiempos",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Recalculate_Time.md"
+        }
+      ]
+    },
+    {
+      "label": "➕ Agregar Topic",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-add-topic",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Topic_To_Current.md"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "icon": "x-circle",
+      "style": "destructive",
+      "class": "",
+      "cssStyle": "padding: 2px 6px; height: 20px; font-size: 11px; line-height: 1;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-delete-line",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Delete_Line.md"
+        }
+      ]
+    },
+    {
+      "label": "➕ Agregar Tarea/Modulo",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-add-task-module",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Task_Module.md"
+        }
+      ]
+    },
+    {
+      "label": "➕ Agregar Interrupción",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-add-interruption",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Interuption.md"
+        }
+      ]
+    },
+    {
+      "label": "➕ Programar Tarea",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "add-task-todoist",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Task_Todoist.md"
+        }
+      ]
+    },
+    {
+      "label": "",
+      "icon": "check-square",
+      "style": "default",
+      "class": "",
+      "cssStyle": "padding: 2px 6px; height: 20px; font-size: 11px; line-height: 1;",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-toggle",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Check_Toggle.md"
+        }
+      ]
+    },
+    {
+      "label": "➕ Agregar Tarea Relacionada",
+      "icon": "",
+      "style": "default",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "btn-link-task",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "runTemplaterFile",
+          "templateFile": "80_Templates/Scripts/T_Add_Link_Task.md"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

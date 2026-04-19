@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "99_Attachments",
+  "showLineNumber": false,
+  "livePreview": true,
+  "trashOption": "local",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "/90_News_Notes",
+  "showUnsupportedFiles": true,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true
+}

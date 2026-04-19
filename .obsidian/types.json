@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "parent": "text",
+    "ticket_id": "text",
+    "est_EE": "number",
+    "related_tasks": "multitext"
+  }
+}

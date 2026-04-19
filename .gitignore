@@ -1,0 +1,19 @@
+# --- Configuración sensible de Plugins ---
+# Ignorar el token de la API de Todoist
+.obsidian/plugins/todoist-sync-plugin/data.json
+.obsidian/todoist-token
+
+# Ignorar configuraciones locales de sincronización
+.obsidian/plugins/obsidian-git/data.json
+
+# --- Archivos de estado de Obsidian ---
+# (Opcional, pero recomendado para no ensuciar el historial)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/backlinks.json
+
+# --- Archivos pesados o temporales ---
+99_Attachments/
+.trash/

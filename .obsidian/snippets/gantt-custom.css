@@ -1,0 +1,23 @@
+/* Tarea completada [x] — verde */
+.mermaid .done0, .mermaid .done1, .mermaid .done2, .mermaid .done3 {
+    fill: #2d6a4f !important;
+    stroke: #1b4332 !important;
+}
+
+/* Tarea real (crit) — naranja */
+.mermaid .crit0, .mermaid .crit1, .mermaid .crit2, .mermaid .crit3 {
+    fill: #e76f51 !important;
+    stroke: #c4531e !important;
+}
+
+/* Tarea normal — azul oscuro para modo oscuro */
+.mermaid .task0, .mermaid .task1, .mermaid .task2, .mermaid .task3 {
+    fill: #1d4e89 !important;
+    stroke: #163a66 !important;
+}
+
+/* Texto de tareas completadas (done) en modo oscuro */
+.mermaid .done0 text, .mermaid .done1 text, 
+.mermaid .done2 text, .mermaid .done3 text {
+    fill: #1a1a1a !important;
+}
